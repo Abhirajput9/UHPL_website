@@ -1,0 +1,87 @@
+  .your-section-class {
+    padding: 20px;
+    background-color: #f5fdf1;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .your-section-class table {
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the table */
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ddd;
+  }
+
+  .your-section-class th, .your-section-class td {
+    padding: 15px;
+    border: 1px solid #ddd;
+  }
+
+  .your-section-class tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  .your-section-class tr:hover {
+    background-color: #e0e0e0;
+  }
+
+  .your-section-class th {
+    background-color: #74c400;
+    color: white;
+  }
+
+  /* Engineering service list css */
+  .numbered-list {
+    margin-bottom: 0;
+    padding-left: 0 !important;
+  }
+
+  .numbered-list p {
+    margin-bottom: 5px;
+    counter-increment: custom-counter;
+  }
+
+  .numbered-list p::before {
+    content: counter(custom-counter) ". ";
+  }
+
+  /* Custome engineering service */
+
+  .custom-faq {
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+
+  .custom-faq-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .custom-faq-list li {
+    display: inline-block;
+    margin: 0 10px 10px 0;
+  }
+
+  .custom-faq-list a {
+    display: block;
+    padding: 10px;
+    background-color: #fff;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .custom-faq-list a:hover {
+    background-color: #e0e0e0;
+  }
+
+  .custom-faq-content {
+    display: none;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
